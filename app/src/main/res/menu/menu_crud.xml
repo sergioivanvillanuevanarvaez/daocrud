@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.daocrud.MainActivity">
+
+    <item
+        android:id="@+id/btn_limpiar"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="@string/menu_options"
+        android:icon="@drawable/limpiar" />
+
+    <item
+        android:id="@+id/btn_agregar"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="@string/menu_options"
+        android:icon="@drawable/anadir" />
+
+    <item
+        android:id="@+id/btn_actualizar"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="@string/menu_options"
+        android:icon="@drawable/actualizar" />
+
+    <item
+        android:id="@+id/btn_elliminar"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="@string/menu_options"
+        android:icon="@drawable/eliminar" />
+
+</menu>
